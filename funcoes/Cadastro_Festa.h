@@ -1,0 +1,6 @@
+#ifndef CADASTRO_FESTA_H_INCLUDED
+#define CADASTRO_FESTA_H_INCLUDED
+
+void Cadastro_Festa();
+
+#endif // CADASTRO_FESTA_H_INCLUDED

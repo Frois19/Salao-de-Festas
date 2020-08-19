@@ -1,0 +1,6 @@
+#ifndef LOCALIZA_CONTRATO_H_INCLUDED
+#define LOCALIZA_CONTRATO_H_INCLUDED
+
+int Localiza_Contrato(int codigo);
+
+#endif // LOCALIZA_CONTRATO_H_INCLUDED

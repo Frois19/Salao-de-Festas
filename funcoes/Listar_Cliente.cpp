@@ -1,0 +1,33 @@
+#include <iostream>
+#include <locale.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#include "Pesquisa_Nome.h"
+
+using namespace std;
+
+/*
+Listar_Cliente
+
+Funcionamento:
+	1. Recebe do usuario o nome a qual será listado os dados
+	2. Busca no arquivo as informações das festas existentes na data informada
+		obs.: utiliza função Pesquisa_Nome para ter acesso as informações do individuo
+		escolhido
+	3. Imprime as informações do individuo na tela
+*/
+void Listar_Cliente()//ok
+{
+    char nome[50];
+    system("cls");
+    cout << "Digite o NOME do CLIENTE: " << endl;
+    setbuf(stdin, NULL);
+    gets(nome);
+    cout << Pesquisa_Nome(nome, "Cliente.txt", 5, 2, 0);
+    cout << endl;
+    system("pause");
+    getchar();
+}

@@ -1,0 +1,6 @@
+#ifndef RELATORIO_DATA_H_INCLUDED
+#define RELATORIO_DATA_H_INCLUDED
+
+void Relatorio_Data();
+
+#endif // RELATORIO_DATA_H_INCLUDED

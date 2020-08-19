@@ -1,0 +1,6 @@
+#ifndef LISTAR_FORNECEDOR_H_INCLUDED
+#define LISTAR_FORNECEDOR_H_INCLUDED
+
+void Listar_Fornecedor();
+
+#endif // LISTAR_FORNECEDOR_H_INCLUDED

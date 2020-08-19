@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trabalho_aed" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/trabalho_aed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/trabalho_aed" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="funcoes/Altera_Status.cpp" />
+		<Unit filename="funcoes/Altera_Status.h" />
+		<Unit filename="funcoes/Cadastro_Cliente.cpp" />
+		<Unit filename="funcoes/Cadastro_Cliente.h" />
+		<Unit filename="funcoes/Cadastro_Contrato.cpp" />
+		<Unit filename="funcoes/Cadastro_Contrato.h" />
+		<Unit filename="funcoes/Cadastro_Festa.cpp" />
+		<Unit filename="funcoes/Cadastro_Festa.h" />
+		<Unit filename="funcoes/Cadastro_Fornecedor.cpp" />
+		<Unit filename="funcoes/Cadastro_Fornecedor.h" />
+		<Unit filename="funcoes/Cadastro_Funcionario.cpp" />
+		<Unit filename="funcoes/Cadastro_Funcionario.h" />
+		<Unit filename="funcoes/CodigoContrato_Festa.cpp" />
+		<Unit filename="funcoes/CodigoContrato_Festa.h" />
+		<Unit filename="funcoes/Dados_Festa.cpp" />
+		<Unit filename="funcoes/Dados_Festa.h" />
+		<Unit filename="funcoes/Dia_Semana_Festa.cpp" />
+		<Unit filename="funcoes/Dia_Semana_Festa.h" />
+		<Unit filename="funcoes/Festas_Data.cpp" />
+		<Unit filename="funcoes/Festas_Data.h" />
+		<Unit filename="funcoes/Lista_Festas_Cliente.cpp" />
+		<Unit filename="funcoes/Lista_Festas_Cliente.h" />
+		<Unit filename="funcoes/Listar_Cliente.cpp" />
+		<Unit filename="funcoes/Listar_Cliente.h" />
+		<Unit filename="funcoes/Listar_Fornecedor.cpp" />
+		<Unit filename="funcoes/Listar_Fornecedor.h" />
+		<Unit filename="funcoes/Listar_Funcionario.cpp" />
+		<Unit filename="funcoes/Listar_Funcionario.h" />
+		<Unit filename="funcoes/Localiza_Contrato.cpp" />
+		<Unit filename="funcoes/Localiza_Contrato.h" />
+		<Unit filename="funcoes/Pesquisa_Nome.cpp" />
+		<Unit filename="funcoes/Pesquisa_Nome.h" />
+		<Unit filename="funcoes/Quantidade_Convidados_Festa.cpp" />
+		<Unit filename="funcoes/Quantidade_Convidados_Festa.h" />
+		<Unit filename="funcoes/Relatorio_Data.cpp" />
+		<Unit filename="funcoes/Relatorio_Data.h" />
+		<Unit filename="funcoes/RetornaCodigo_Nome.cpp" />
+		<Unit filename="funcoes/RetornaCodigo_Nome.h" />
+		<Unit filename="funcoes/Verifica_Existencia_Arquivo.cpp" />
+		<Unit filename="funcoes/Verifica_Existencia_Arquivo.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

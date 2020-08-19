@@ -1,0 +1,6 @@
+#ifndef CADASTRO_CLIENTE_H_INCLUDED
+#define CADASTRO_CLIENTE_H_INCLUDED
+
+void Cadastro_Cliente();
+
+#endif // CADASTRO_CLIENTE_H_INCLUDED

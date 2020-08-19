@@ -1,0 +1,6 @@
+#ifndef CADASTRO_CONTRATO_H_INCLUDED
+#define CADASTRO_CONTRATO_H_INCLUDED
+
+void Cadastro_Contrato();
+
+#endif // CADASTRO_CONTRATO_H_INCLUDED

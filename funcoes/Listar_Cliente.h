@@ -1,0 +1,6 @@
+#ifndef LISTAR_CLIENTE_H_INCLUDED
+#define LISTAR_CLIENTE_H_INCLUDED
+
+void Listar_Cliente();
+
+#endif // LISTAR_CLIENTE_H_INCLUDED

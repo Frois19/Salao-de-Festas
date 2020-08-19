@@ -1,0 +1,6 @@
+#ifndef ALTERA_STATUS_H_INCLUDED
+#define ALTERA_STATUS_H_INCLUDED
+
+void Altera_Status();
+
+#endif // ALTERA_STATUS_H_INCLUDED
